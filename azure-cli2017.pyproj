@@ -13,7 +13,8 @@
     <LaunchProvider>Standard Python launcher</LaunchProvider>
     <InterpreterId>MSBuild|{54f4b6dc-0859-46dc-99bb-b275c9d0aca3}|$(MSBuildProjectFullPath)</InterpreterId>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
-    <CommandLineArguments>ams sp create -a cliamsdemo -g azure-cli-ams-demo</CommandLineArguments>
+    <CommandLineArguments>
+    </CommandLineArguments>
     <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
@@ -1108,6 +1109,7 @@
     <Content Include="command_modules\azure-cli-advisor\setup.cfg" />
     <Content Include="command_modules\azure-cli-ams\azure\cli\command_modules\ams\tests\latest\recordings\test_ams_create_show.yaml" />
     <Content Include="command_modules\azure-cli-ams\azure\cli\command_modules\ams\tests\latest\recordings\test_ams_list.yaml" />
+    <Content Include="command_modules\azure-cli-ams\azure\cli\command_modules\ams\tests\latest\recordings\test_ams_sp_create.yaml" />
     <Content Include="command_modules\azure-cli-ams\azure\cli\command_modules\ams\tests\latest\recordings\test_ams_storage_add_remove.yaml" />
     <Content Include="command_modules\azure-cli-appservice\azure\cli\command_modules\appservice\tests\latest\sample_web\.gitignore" />
     <Content Include="command_modules\azure-cli-appservice\azure\cli\command_modules\appservice\tests\latest\sample_web\package.json" />
